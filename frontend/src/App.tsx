@@ -1,9 +1,8 @@
-
+import NavBar from './assets/components/navbar';
+import {ReactComponent as GithubIcon} from 'assets/img/github.svg';
 
 function App() {
-  return (
-    <h1>Pagina Principal</h1>
-  );
+  <NavBar />
 }
 
 export default App;
